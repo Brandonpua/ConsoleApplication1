@@ -1,0 +1,12 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Fragment>
+		<ComponentGroup Id="ExampleComponents" Directory="INSTALLFOLDER">
+			<Component>
+				<File Source="$(var.ConsoleApplication1.TargetPath)" />
+			</Component>
+			<Component>
+				<File Source="$(var.MathHelper.TargetPath)" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

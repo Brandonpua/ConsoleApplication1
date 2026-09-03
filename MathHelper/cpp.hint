@@ -1,0 +1,2 @@
+#define MATHHELPER_API __declspec(dllexport)
+#define MATHHELPER_API __declspec(dllimport)

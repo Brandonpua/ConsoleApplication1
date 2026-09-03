@@ -1,0 +1,6 @@
+﻿<Project Sdk="WixToolset.Sdk/7.0.0">
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApplication1\ConsoleApplication1.vcxproj" />
+    <ProjectReference Include="..\MathHelper\MathHelper.vcxproj" />
+  </ItemGroup>
+</Project>

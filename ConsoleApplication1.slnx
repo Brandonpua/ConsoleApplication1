@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ConsoleApplication1.Installer/ConsoleApplication1.Installer.wixproj" Type="b7dd6f7e-def8-4e67-b5b7-07ef123db6f0" Id="00e8367f-67d6-47ed-9a12-7b4112c7590c" />
+  <Project Path="ConsoleApplication1/ConsoleApplication1.vcxproj" Id="07a8560a-8ea0-43f0-9ebd-a7634b559977">
+    <Platform Solution="*|ARM64" Project="x64" />
+  </Project>
+  <Project Path="MathHelper/MathHelper.vcxproj" Id="3cfe6887-e4d5-46f6-b71c-d13d9f5331ff">
+    <Platform Solution="*|ARM64" Project="x64" />
+  </Project>
+</Solution>

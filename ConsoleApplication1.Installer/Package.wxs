@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+	<Package Id="PuaYaoQuan.ConsoleApplication1.Installer" Name="ConsoleApplication1" Manufacturer="PuaYaoQuan" Version="1.0.0">
+		<MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+		<Feature Id="Main">
+			<ComponentGroupRef Id="ExampleComponents" />
+		</Feature>
+	</Package>
+</Wix>
